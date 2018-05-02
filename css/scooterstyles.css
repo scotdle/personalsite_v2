@@ -1,0 +1,618 @@
+html {
+    
+    overflow-y:scroll
+
+
+    
+}
+
+
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+
+ html, body, h2, h3{
+     
+ height: 100%;
+  font-family: 'Josefin Sans', sans-serif;
+    color: black;
+  
+}
+p {
+    
+    font-size: 20px;
+    
+}
+
+.img-responsive{
+    
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* ----------------NAV CSS STARTS---------------- */
+
+#mainNavBar {
+    
+font-family: 'Josefin Sans', sans-serif;
+
+}
+
+body#page-top{
+    
+    
+}
+.logo {
+    
+    height: 30px;
+    
+}
+
+.navbar-header {
+    
+    height: 60px;
+   
+    
+}
+.centerblock {
+    text-align: center;
+}
+
+.navbar-fixed-bottom {
+background-color:white;
+ font-size: 30px;
+ 
+ 
+    
+}
+
+
+    
+navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 0px;
+}
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 11px;
+}
+.navbar-fixed-bottom:before {
+    
+       filter: blur(5px);
+}
+
+
+a:hover {
+    
+    
+}
+
+.page-scroll:hover {
+
+    background-color: aquamarine;
+}
+.nav-bar-toggle {
+    background: #add9f4;
+    
+}
+a.pagescroll:after {
+    background-color: aqua;
+    
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: white;
+    background-color: #add9f4;
+    height: 60px;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #add9f4;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    color: #add9f4;
+    background-color: transparent;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: black;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #add9f4;
+}
+
+
+.navbar-nav>li>a {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+
+   .social {
+    margin: 0;
+    padding: 0;
+    float: right
+}
+
+
+.social ul {
+    margin: 0;
+    padding: 5px;
+}
+
+.social ul li {
+    
+    list-style: none outside none;
+    display: inline-block;
+    
+}
+
+.social i {
+    width: 40px;
+    height: 40px;
+    color: #FFF;
+    background-color: #909AA0;
+    font-size: 22px;
+    text-align:center;
+    padding-top: 12px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all ease 0.6s;
+    -moz-transition: all ease 0.6s;
+    -webkit-transition: all ease 0.6s;
+    -o-transition: all ease 0.6s;
+    -ms-transition: all ease 0.6s;
+}
+
+    @media  (max-width: 767px)  {
+    
+   .social {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    float: none;
+}
+.social ul li {
+    margin: 4px;
+    list-style: none outside none;
+    display: inline-block;
+}    
+    
+}
+.social i:hover {
+    color: #FFF;
+    text-decoration: none;
+    transition: all ease 0.7s;
+    -moz-transition: all ease 0.7s;
+    -webkit-transition: all ease 0.7s;
+    -o-transition: all ease 0.7s;
+    -ms-transition: all ease 0.7s;
+}
+img.center-block.logo:hover {
+    color: #FFF;
+
+}
+
+.social .fa-facebook:hover {
+    background: #4060A5;
+}
+
+
+
+.social .fa-instagram:hover {
+    background: #9b6954;
+}
+
+
+
+
+.social .fa-dropbox:hover {
+    background: #017FE5;
+}
+
+.social .fa-briefcase:hover {
+    background: #ADD9F4;
+}
+
+.social .fa-youtube-play:hover {
+    background: #DF192A;
+}
+
+/* ----------------NAV CSS ENDS---------------- */
+
+/* ----------------SECTION CSS STARTS---------------- */
+
+.content-for-site {
+font-family: 'Open Sans', sans-serif;
+    
+    
+}
+.content-for-site.h1 {
+font-size: 160px;
+    
+    
+}
+
+.intro-section {
+    
+    position: relative;
+    height: 600px;
+    text-align: center;
+    width: 100%;
+     background-image: url(../images/websitephotoplaceholder.jpg);
+    background-position: center;
+    background-repeat: no-repeat;   
+    background-size: cover;
+
+    }
+
+
+.headertext {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #add9f4;
+    
+ 
+}
+
+
+
+
+.headertext h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-60%);
+    background-color: rgba(73, 73, 73, 0.66);
+    border: 2px solid #add9f4;
+    border-radius: 5px;
+     padding: 10px;
+    text-align: center;
+    
+    
+}
+ .about-section h1{
+
+    font-family:  'Josefin Sans';
+    font-size: 30px;
+    
+
+}
+
+
+.about-section {
+    
+    position: relative;
+    height: 100%;
+    background-color: #add9f4;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+
+ h1 {
+    
+    font-size: 70px;
+    
+}
+
+
+h2 {
+    border: 2px solid #add9f4;
+    border-radius: 5px;
+     padding: 10px;
+    text-align: center;  
+
+
+}
+
+
+
+
+
+
+.imagelinks{
+    font-family: 'Anton';
+    font-size: 80px;
+      position: relative;
+    height: 100%;
+    background-color: #add9f4;
+    text-align: center;
+    padding: 20px;
+     
+    
+}
+
+
+
+
+.music-section {
+    
+    position: relative;
+    height: 100%;
+    background-color: rgb(103, 104, 103);
+   
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+
+ .music-section h1 {
+     
+    font-family:  'Josefin Sans';
+    font-size: 30px;
+    text-align: center;
+}
+
+.onstage {
+
+padding-bottom: 20px;    
+border: 2px solid #add9f4;
+    border-radius: 5px;
+     padding: 10px;
+       
+}
+
+
+
+div.col-md-4.col-sm-4.col-sm-6 {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    
+    
+    
+}
+
+
+
+.taste-section {
+    
+   
+    
+    position: relative;
+    height: 100%;
+    background-color: #282828;
+
+    
+
+    }
+
+.taste-section h1, h5 {
+    
+    font-family:  'Josefin Sans';
+    font-size: 30px;
+    text-align: center;
+    
+    color: #1ED760;
+    
+    
+    
+    
+}
+
+.coding-section {
+    
+    position: relative;
+    height: 100%;
+    background-color: grey;
+    padding: 10px;
+    text-align: center;
+}
+
+ .coding-section h1{
+     
+    font-family:  'Josefin Sans';
+    font-size: 30px;
+    text-align: center;
+     padding: 10px;
+    
+}
+ .coding-section h2{
+     
+border: 2px solid #add9f4;
+    border-radius: 5px;
+     padding: 10px;
+    text-align: center;
+
+    
+}
+
+.coding-section img{
+    
+    text-align: center;
+    
+}
+
+.coding-section li{
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Open Sans';
+    
+}
+.youtube-section {
+    
+    position: relative;
+    height: 100%;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+
+
+ .youtube-section h1{
+     
+    font-family:  'Josefin Sans';
+    font-size: 30px;
+    
+}
+
+
+
+.contact-section {
+    position: relative;
+    height: 800px;
+    background-color: #add9f4;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+ .contact-section h1{
+     
+    font-family:  'Josefin Sans';
+    font-size: 30px;
+    
+}
+
+.sentemailtext{
+    position: relative;
+    top:30%;
+    text-align: center;
+    color: #add9f4;
+    
+}
+
+
+/* ----------------SECTION CSS ENDS---------------- */
+
+/* ----------------VIDEO BG CSS STARTS---------------- */
+
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+    background-image: url(../images/websitephotoplaceholder.jpg)
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* ----------------VIDEO BG CSS ENDS---------------- */
+
+/* ----------------MEDIA QUERIES START---------------- */
+
+
+
+@media (min-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    height: 300%;
+    top: -100%;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    width: 300%;
+    left: -100%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+
+   h1 { font-size: 50px; }
+    
+        .intro-section {
+    
+    position: relative;
+
+    text-align: center;
+
+
+    }
+
+}
+
+@media  (max-width: 850px)  {
+    
+    
+    
+.navbar-nav {
+    margin: 0px -15px;
+    padding: 0px;
+}
+    .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: white;
+    background-color: #add9f4;
+    height: 40px;
+}
+    .navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+    
+.intro-section{  background-image: url(../images/websitephoto2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;   
+    background-size: cover;
+    }
+    
+    
+    
+    
+    
+}
+
+/* ----------------MEDIA QUERIES END---------------- */
+img.img-responsive.center-block:hover{
+ -webkit-filter: blur(3px);
+ transition:all 0.7s ease;     
+    
+    
+}
+
+
+
+.centerpicture {
+    
+  display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.quickfacts {
+ 
+    padding: 5px;
+    
+}
+
+div.col-lg-4 {
+    
+   
+     border-radius: 5px;
+    border:2px solid; 
+    border-color: #add9f4;
+}
+
+
+
